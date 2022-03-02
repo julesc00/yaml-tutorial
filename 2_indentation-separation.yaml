@@ -1,0 +1,54 @@
+# Example of intended block
+--- !clarkevans.com/^invoice
+invoice: 34843
+date: 2022-01-23
+bill-to: &id001
+  given: Caricia
+  family: Briones
+  address: 
+    lines: |
+          Street name XXX
+          Colonia Somewhere
+    city    : Guadalajara
+    state   : Jalisco
+    postal  : 47000
+ship-to: *id001
+product:
+  - sku           : BL394D
+    quantity      : 4
+    description   : Basketball
+    price         : 239.00
+  - sku           : BL4438H
+    quantity      : 3
+    description   : Surfing
+    price         : 53.99
+tax   : 150.99
+total : 43343.00
+comments: >
+  Late afternoon is best.
+  Backup contact is Panchito
+  Panchito  @ 324-3434
+
+
+--- # Separation of strings
+-
+  - Cat
+  - Dog
+  - Goldfish
+
+- 
+  - Python
+  - Lion
+  - Tiger
+
+--- # Another example to explain string representation in YAML
+errors:
+      messages:
+         already_confirmed: "was already confirmed, please try signing in"
+         confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+         expired: "has expired, please request a new one"
+         not_found: "not found"
+         not_locked: "was not locked"
+         not_saved:
+            one: "1 error prohibited this %{resource} from being saved:"
+            other: "%{count} errors prohibited this %{resource} from being saved:"

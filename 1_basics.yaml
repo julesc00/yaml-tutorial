@@ -1,0 +1,21 @@
+--- # Favorite movies
+- Casablanca
+- North by Northwest
+- The Man Who Wasn't There
+
+--- # Shopping list
+[milk, groceries, eggs, juice, fruits]
+
+--- # A user
+- {name: Julito Briones, age: 16}
+- name: Jemima Briones
+  age: 27
+
+--- # Example 3 - Mes enfants, examples of lists
+men: [Cesar, Julito, Lucien, Benito, Charbel]
+women: 
+  - Caricia
+  - Franz-che
+  - Brigitte
+  - Michele
+  - Jemima
